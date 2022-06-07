@@ -1,0 +1,8 @@
+#Application properties
+server:
+  port: ${APP_PORT:8080}
+
+cloud:
+  endpoint: ${S3_ENDPOINT:https://objectstorage.sa-saopaulo-1.oraclecloud.com}
+  # pre-authenticated request PATH (will be appended to the endpoint)
+  preauthreq: ${S3_PRE_AUTH_REQ}
